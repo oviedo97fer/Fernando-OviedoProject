@@ -1,0 +1,79 @@
+
+@import url('page1.css');
+@import url('page2.css');
+@import url('page3.css');
+@import url('page4.css');
+#left{
+    background: #ae2;
+    height: 100vh;
+    position: relative;
+}
+.indicador{
+    width: 5px;
+    height: 10vh;
+    position: absolute;
+    top: 45%;
+    z-index: 100;
+}
+.indicador ul li{
+    list-style: none;
+    color: aliceblue;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.indicador ul li a{
+    color: aliceblue;
+}
+
+#page1, #page2, #page3, #page4{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    background: #e0f3fa; /* Old browsers */
+background: -moz-linear-gradient(45deg, #e0f3fa 0%, #b8c7cd 50%, #e0f3fa 50%, #b8c7cd 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #e0f3fa 0%,#b8c7cd 50%,#e0f3fa 50%,#b8c7cd 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #e0f3fa 0%,#b8c7cd 50%,#e0f3fa 50%,#b8c7cd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+#page1{
+    display: block;
+}
+#page2{
+     background: #B4D7FE; 
+}
+#page3 {
+    background: #B5CDFF ;
+}
+#page4{
+    background: #E0F3FA;
+}
+.img-page{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 35%;
+}
+.img-page3{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    top: 40%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/*----------------*/
+.unsee-page{
+    display: none;
+}
+.see-page{
+    display: block;
+}
+/*----------------*/
+.mostrar{
+    font-weight: bold;
+    font-size: 12px;
+}
+.ocultar{
+    font-weight: normal;
+    font-size: 10px;
+}

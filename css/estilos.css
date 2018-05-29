@@ -1,0 +1,8 @@
+@import url('loader.css');
+@import url('nav.css');
+@import url(right.css); 
+@import url('left.css');
+*{
+    padding: 0;
+    margin: auto 0;
+}

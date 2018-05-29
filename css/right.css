@@ -1,0 +1,71 @@
+#right{
+    background: #606880;
+    height: 100vh;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    color: aliceblue;
+    transform: translateX(30%);
+    top: 50%;
+    width: 70%;
+} 
+.text2{
+    position: absolute;
+    color: aliceblue;
+    transform: translateX(30%);
+    top: 50%;
+    width: 70%;
+} 
+.text3{
+    position: absolute;
+    color: aliceblue;
+    transform: translateX(30%);
+    top: 50%;
+    width: 70%;
+}
+#banner1, #banner2, #banner3, #banner4{
+    position: absolute;
+    top: 100vh;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    left: 0;
+    flex-wrap: wrap;
+}
+/*Banner1*/
+#banner1{
+    top: 0;
+    background: #444;
+}
+/*Banner2*/
+#banner2{
+    background:  #7D94AB;
+    top:100vh;
+}
+/*Banner3*/
+#banner3{
+    top:200vh;
+    background: #555/*#4B5163*/ ;
+}
+
+/*Banner4*/
+#banner4{
+    top: 300vh;
+    background: #7487A8;
+}
+#banner4 div a{
+    padding: 10px;
+    background: rgba(255,255,255,0.2);
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 2px;
+}
+#banner4 div a:hover{
+    background: rgba(255,255,255,0.4);
+}
+
+
+
